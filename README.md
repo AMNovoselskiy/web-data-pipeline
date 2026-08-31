@@ -13,8 +13,10 @@ price monitoring — any structured public source.
 
 Not a script — **data ready to use**:
 
-- `Data` sheet — typed, deduplicated rows (title, category, price, rating, stock, URL)
-- `Summary` sheet — aggregates per category + chart
+- `Dashboard` sheet — KPI tiles and three charts: top categories, price
+  distribution, rating split
+- `Data` sheet — typed, deduplicated rows with a price heat scale
+- `Summary` sheet — per-category aggregates with in-cell data bars
 - `Quality` sheet — how many raw records came in, what was dropped and why
 
 See [`examples/report.xlsx`](examples/report.xlsx) for real output.
